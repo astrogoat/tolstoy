@@ -2,10 +2,10 @@
 
 namespace Astrogoat\Tolstoy;
 
+use Astrogoat\Tolstoy\Settings\TolstoySettings;
 use Helix\Lego\Apps\App;
 use Helix\Lego\Apps\AppPackageServiceProvider;
 use Spatie\LaravelPackageTools\Package;
-use Astrogoat\Tolstoy\Settings\TolstoySettings;
 use Helix\Lego\Apps\Services\IncludeFrontendViews;
 
 class TolstoyServiceProvider extends AppPackageServiceProvider
