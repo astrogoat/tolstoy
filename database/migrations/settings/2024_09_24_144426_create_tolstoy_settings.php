@@ -7,7 +7,7 @@ return new class extends SettingsMigration
     public function up(): void
     {
         $this->migrator->add('tolstoy.enabled', false);
-        $this->migrator->add('tolstoy.key');
+        $this->migrator->add('tolstoy.key', '');
     }
 
     public function down()
