@@ -2,9 +2,9 @@
 
 namespace Astrogoat\Tolstoy\Tests;
 
+use Astrogoat\Tolstoy\TolstoyServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Astrogoat\Tolstoy\TolstoyServiceProvider;
 
 class TestCase extends Orchestra
 {
