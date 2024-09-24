@@ -7,13 +7,13 @@ use Illuminate\Validation\Rule;
 
 class TolstoySettings extends AppSettings
 {
-    // public string $url;
+    public string $key;
 
     public function rules(): array
     {
-        // return [
-        //     'url' => Rule::requiredIf($this->enabled === true),
-        // ];
+        return [
+            'key' => Rule::requiredIf($this->enabled === true),
+        ];
     }
 
     public function description(): string
